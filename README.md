@@ -50,7 +50,7 @@ To set up the chatbot locally, follow these steps:
 1. Clone this repository to your local machine using Git:
 
 ```bash
-git clone https://github.com/talhaanwarch/streamlit-llama.git
+git clone https://github.com/RupangshuBanik/streamlit-llama-2-7b-chatbot.git
 cd streamlit-chatbot-memory
 ```
 
