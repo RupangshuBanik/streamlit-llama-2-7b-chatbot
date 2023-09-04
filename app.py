@@ -8,7 +8,7 @@ st.set_page_config(page_title="🦙💬 Llama 2 Chatbot")
 @st.cache_resource()
 def ChatModel(temperature, top_p):
     return AutoModelForCausalLM.from_pretrained(
-        'llama-2-7b-chat.ggmlv3.q8_0.bin', 
+        'meta-llama/Llama-2-7b-hf', 
         model_type='llama',
         temperature=temperature, 
         top_p = top_p)
