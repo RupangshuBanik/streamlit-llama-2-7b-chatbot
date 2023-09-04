@@ -1,6 +1,6 @@
 # Streamlit Chatbot with Memory using Llama-2-7B-Chat (Quantized GGML)
 
-Working Url: https://chatdemo.talhaanwar.com/ 
+Working Url: https://rupbanik-chatbot.streamlit.app/
 
 
 ## Table of Contents
@@ -11,7 +11,6 @@ Working Url: https://chatdemo.talhaanwar.com/
 - [Installation](#installation)
 - [Usage](#usage)
 - [Docker Compose](#docker-compose)
-- [Acknowledgments](#acknowledgments)
 
 ## Introduction
 
@@ -93,11 +92,3 @@ docker-compose up -d
 ```
 
 The chatbot will be accessible at `http://localhost:8501` in your web browser.
-
-## Acknowledgments
-
-- Streamlit Chatbot code credits go to [Data Professor](https://github.com/dataprofessor). Their original repository can be found [here](https://github.com/dataprofessor/streamlit_chatbot).
-
-- Quantized GGML version of Llama-2-7B-Chat credits go to [TheBloke](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML).
-
-Thank you for your interest in this project. Feel free to contribute, report issues, or provide feedback. Happy chatting!
